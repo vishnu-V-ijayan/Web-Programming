@@ -1,0 +1,41 @@
+<html>	
+	<head><title>java_demo_01_16_11_22</title></head>
+	<body  bgcolor="#80ffbf">
+	<h1 id=h1>Find area of a circle ...</h1>
+	<p id=p1>The value of pi is  :  </p>
+	<button id="b1">click here  </button><br>
+		<script>
+		var q="today is not so moody still it is not so good either.";
+		var w="but still i try to survive the day";
+		var a="Nature is so peaceful"
+		var b="without human race"
+			
+			document.getElementById("b1").addEventListener("click",pi)
+                function pi(){
+                var pie=Math.PI 
+                document.getElementById("p1").innerHTML="The value of pie is  :  "+pie
+                }
+			document.write("To replace not with so  :"+q.replace("not","so"));//to replace an existing word with another
+			document.write("to upper case :"+q.toUpperCase());//converts string to upper case
+			document.write("To lower case  :"+q.toLowerCase());//converts string to lower case
+			document.write(a.concat(" ",b));//to combine 2 sentences
+			document.getElementById("h1").innerHTML="Amal Jyothi";//to replace an existing string within html code
+			//mathematical functions in javascript
+			document.write("The value of pi is  :  "+Math.PI);
+			var r=Math.round(10.55);
+			document.write("<h5>round function  : </h5>"+r);
+			var r=Math.ceil(10.55);
+			document.write("<h5>Ceil function  : </h5>"+r);
+			var r=Math.pow(10,5);
+			document.write("<h5>The product of the given numbers is : </h5>"+r);
+			var abs=Math.pow(10,-55);
+			document.write("<h5>The absolute values of the given numbers is : </h5>"+abs);
+			var min=Math.min(10,5,-5,-100,100);
+			document.write("<h5>The minimum values  among the given numbers is : </h5>"+min);
+			var max=Math.max(10,5,-5,-100,100,300);
+			document.write("<h5>The minimum values  among the given numbers is : </h5>"+min);
+			*/
+	
+	</script>
+	</body>
+</html>
